@@ -2,11 +2,16 @@ package com.lin.test;
 
 import java.sql.*;
 
-public class jdbcTest01 {
+/*
+    相关博客
+    https://www.liaoxuefeng.com/wiki/1252599548343744/1321748435828770
+*/
+
+public class jdbcConnect {
     public static void main(String[] args) throws SQLException {
         String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/learnjdbc?useSSL=false&characterEncoding=utf8";
         String JDBC_USER = "root";
-        String JDBC_PASSWORD = "88718656";
+        String JDBC_PASSWORD = "1234";
 
         String SQL = "SELECT id, grade, name, gender FROM learnjdbc.students WHERE gender=? AND grade=?";
 
