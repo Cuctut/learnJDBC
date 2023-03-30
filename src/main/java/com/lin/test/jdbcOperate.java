@@ -9,7 +9,7 @@ import java.sql.*;
 
 public class jdbcOperate {
     public static void main(String[] args) throws SQLException {
-        String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/learnjdbc?useSSL=false&characterEncoding=utf8";
+        String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/learnjdbc?useSSL=false&characterEncoding=utf8&useServerPrepStmts=true";
         String JDBC_USER = "root";
         String JDBC_PASSWORD = "1234";
 

@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class jdbcDataSource {
     public static void main(String[] args) {
-        String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/learnjdbc?useSSL=false&characterEncoding=utf8";
+        String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/learnjdbc?useSSL=false&characterEncoding=utf8&useServerPrepStmts=true";
         String JDBC_USER = "root";
         String JDBC_PASSWORD = "1234";
 
